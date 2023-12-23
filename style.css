@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red
+}
+
+// Adicione estilos para a barra de progresso 
+.password-strength {
+    margin-top: 10px;
+    height: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+    margin:10px;
+
+}
+
+#strength-bar {
+    height: 100%;
+    width: 0;
+    transition: width 0.3s;
+}
+
+
+/* Adicione cores à barra de progresso com base na força da senha */
+#strength-bar.weak {
+    background-color: #ff6347; /* Tom de vermelho */
+}
+
+#strength-bar.medium {
+    background-color: #ffd700; /* Tom de amarelo */
+}
+
+#strength-bar.strong {
+    background-color: #00fa9a; /* Tom de verde */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.password-strength {
+    background-color: #ddd;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+#strength-bar {
+    background-color: #007bff;
+    height: 100%;
+    width: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    //display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:nth-child(even) {
+    background-color: #e5e5e5;
+}
+
+li button {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #ff1a00;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        margin-bottom: 10px;
+    }
+
+    li {
+        padding: 10px;
+    }
+}
