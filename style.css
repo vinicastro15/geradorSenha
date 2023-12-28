@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 4px;
 }
 
 .container {
@@ -184,7 +185,6 @@ li button:hover {
         height:40vh;
     }
 }
-
 
 
 @media screen and (max-width: 600px) {
